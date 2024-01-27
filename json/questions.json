@@ -1,0 +1,1319 @@
+[
+  {
+    "id": 2,
+    "question": "Wpisz nazwę jednej z metod (ale innej niż getItemCount) absolutnie wymaganej dla implementacji adaptera dla RecyclerView: (wpisz samą nazwę, bez nawiasów i parametrów) ",
+    "image": "",
+    "answers": [
+      {
+        "text": "onCreateViewHolder",
+        "isCorrect": true
+      },
+      {
+        "text": "onBindViewHolder",
+        "isCorrect": true
+      },
+      {
+        "text": "getItemCount",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Z użyciem jakiego dekodera/adnotacji definiuje się tabelę w Room dla systemu bazodanowego Android?",
+    "image": "",
+    "answers": [
+      {
+        "text": "@Dao",
+        "isCorrect": false
+      },
+      {
+        "text": "@Tuple",
+        "isCorrect": false
+      },
+      {
+        "text": "@Record",
+        "isCorrect": false
+      },
+      {
+        "text": "@Entity",
+        "isCorrect": true
+      },
+      {
+        "text": "@Table",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Użycie systemowej aktywności Camera jest możliwe za pomocą Result API tzn. definiując launchera z odpowiednim kontraktem i słuchacza na odbiór rezultatów. Kontrakt ActivityResultContractsTakePicture pozwala zrobić zdjęcie. Co trzeba podać jako parametr wywołania launcher’a tego kontraktu?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Ścieżkę bezwzględną (Path) do zapisywanego pliku obrazu",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie trzeba nic podawać",
+        "isCorrect": false
+      },
+      {
+        "text": "Zmienną File do zapisanego pliku obrazu",
+        "isCorrect": false
+      },
+      {
+        "text": "Ścieżkę (Path) do katalogu prywatnego na media aplikacji",
+        "isCorrect": false
+      },
+      {
+        "text": "Content Uri dla zapisywanego pliku obrazu",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "W aplikacji systemu Android tworzysz intencję i5, za pomocą której uruchamiasz inną aktywność poprzez akcję ACTION_VIEW, przekazując jej dane dane3. Używasz Result API - tzn. rejestracja słuchacza (kod wykropkowany) definiowanym kontraktem i użycie launcher’a. Uzupełnij kod realizujący te działanie.",
+    "image": "/images/img5.png",
+    "answers": [
+      {
+        "text": "registerForActivityResult, Uri, launch",
+        "isCorrect": true
+      },
+      {
+        "text": "registerActivityForResult, Intent, start",
+        "isCorrect": false
+      },
+      {
+        "text": "registerListenerForResult, Data, execute",
+        "isCorrect": false
+      },
+      {
+        "text": "registerForResult, Action, send",
+        "isCorrect": false
+      },
+      {
+        "text": "registerObserverForResult, Bundle, invoke",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Wpisz nazwę metody, w której należy zamieścić kod do obsługi zdarzenia wyboru zakładki w systemie Android.",
+    "image": "",
+    "answers": [
+      {
+        "text": "onTabSelected",
+        "isCorrect": true
+      },
+      {
+        "text": "onItemSelected",
+        "isCorrect": false
+      },
+      {
+        "text": "handleTabSelection",
+        "isCorrect": false
+      },
+      {
+        "text": "tabClicked",
+        "isCorrect": false
+      },
+      {
+        "text": "selectTab",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Jaka metoda jest wywoływana, gdy pojawią się nowe dane o lokalizacji?",
+    "image": "",
+    "answers": [
+      {
+        "text": "onLocationChanged",
+        "isCorrect": true
+      },
+      {
+        "text": "onNewLocationData",
+        "isCorrect": false
+      },
+      {
+        "text": "updateLocation",
+        "isCorrect": false
+      },
+      {
+        "text": "locationUpdate",
+        "isCorrect": false
+      },
+      {
+        "text": "handleLocationChange",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Co trzeba dać, aby opcja pojawiła się na toolbarze?",
+    "image": "",
+    "answers": [
+      {
+        "text": "showAsAction w XML",
+        "isCorrect": true
+      },
+      {
+        "text": "addToToolbar w kodzie programu",
+        "isCorrect": false
+      },
+      {
+        "text": "attachToToolbar w XML",
+        "isCorrect": false
+      },
+      {
+        "text": "displayOnToolbar w kodzie programu",
+        "isCorrect": false
+      },
+      {
+        "text": "toolbarOption w XML",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Gdzie wstawisz kod, za pomocą którego w pozycjach listy pojawią się różne obrazki?",
+    "image": "",
+    "answers": [
+      {
+        "text": "w metodzie getView() adaptera listy",
+        "isCorrect": true
+      },
+      {
+        "text": "w metodzie onCreate() aktywności",
+        "isCorrect": false
+      },
+      {
+        "text": "w metodzie onItemClickListener() listy",
+        "isCorrect": false
+      },
+      {
+        "text": "w metodzie onBindView() ViewHoldera",
+        "isCorrect": false
+      },
+      {
+        "text": "w metodzie setImageResource() dla każdego elementu listy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Jaki parametr ma metoda wywołana, gdy pojawia się wartość z obsługiwanego sensora?",
+    "image": "",
+    "answers": [
+      {
+        "text": "SensorEvent",
+        "isCorrect": true
+      },
+      {
+        "text": "SensorData",
+        "isCorrect": false
+      },
+      {
+        "text": "SensorValue",
+        "isCorrect": false
+      },
+      {
+        "text": "EventData",
+        "isCorrect": false
+      },
+      {
+        "text": "ValueEvent",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Które z działań powinno być zaimplementowane w celu realizacji zalecanego schematu komunikacji z aktywnością?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Fragment definiuje interfejs słuchacza, który musi implementować aktywność.",
+        "isCorrect": true
+      },
+      {
+        "text": "Aktywność bezpośrednio dostarcza danych do fragmentu.",
+        "isCorrect": false
+      },
+      {
+        "text": "Fragment bezpośrednio obsługuje zdarzenia użytkownika.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aktywność i fragment są całkowicie niezależne od siebie.",
+        "isCorrect": false
+      },
+      {
+        "text": "Fragment i aktywność komunikują się bezpośrednio poprzez współdzielone zmienne.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Podaj metody, które są wykonywane przy przywracaniu aktywności w systemie Android ze stanu, w którym była całkowicie przysłonięta przez inną aktywność.",
+    "image": "",
+    "answers": [
+      {
+        "text": "onRestart, onStart, onResume",
+        "isCorrect": true
+      },
+      {
+        "text": "onCreate, onStart, onResume",
+        "isCorrect": false
+      },
+      {
+        "text": "onResume, onStart, onRestart",
+        "isCorrect": false
+      },
+      {
+        "text": "onResume, onRestoreInstanceState, onStart",
+        "isCorrect": false
+      },
+      {
+        "text": "onResume, onRestart, onStop",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Który obiekt nie wymaga adapteru widoku?",
+    "image": "",
+    "answers": [
+      {
+        "text": "CheckBox",
+        "isCorrect": true
+      },
+      {
+        "text": "RecyclerView",
+        "isCorrect": false
+      },
+      {
+        "text": "Spinner",
+        "isCorrect": false
+      },
+      {
+        "text": "ListView",
+        "isCorrect": false
+      },
+      {
+        "text": "GridView",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Jaka metoda jest wywoływana, gdy pojawia się nowa wartość do przekazania z sensora?",
+    "image": "",
+    "answers": [
+      {
+        "text": "onSensorChanged",
+        "isCorrect": true
+      },
+      {
+        "text": "onValueChanged",
+        "isCorrect": false
+      },
+      {
+        "text": "onNewSensorData",
+        "isCorrect": false
+      },
+      {
+        "text": "handleSensorChange",
+        "isCorrect": false
+      },
+      {
+        "text": "onUpdateSensor",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Które elementy mogą być brane pod uwagę przy wyborze przez system Android aktywności do uruchomienia przez mechanizm filtrowania intencji?",
+    "image": "",
+    "answers": [
+      {
+        "text": "nazwa klasy intencji, nazwa klasy aktywności",
+        "isCorrect": true
+      },
+      {
+        "text": "typ intencji, pakiet aplikacji",
+        "isCorrect": false
+      },
+      {
+        "text": "nazwa intencji, dostawca usług",
+        "isCorrect": false
+      },
+      {
+        "text": "kategoria intencji, parametry intencji",
+        "isCorrect": false
+      },
+      {
+        "text": "typ aktywności, nazwa intencji",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "W którym pliku należy zdefiniować filtr intencji dla aplikacji systemu Android?",
+    "image": "",
+    "answers": [
+      {
+        "text": "main.xml",
+        "isCorrect": false
+      },
+      {
+        "text": "Filter.xml",
+        "isCorrect": false
+      },
+      {
+        "text": "Intent.xml",
+        "isCorrect": false
+      },
+      {
+        "text": "AndroidManifest.xml",
+        "isCorrect": true
+      },
+      {
+        "text": "AndroidFilter.xml",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Zadaniem metody getView() własnego adaptera dla listy o dostosowanym widoku jest:",
+    "image": "",
+    "answers": [
+      {
+        "text": "Utworzenie nowego obiektu widoku przy pierwszym wywołaniu metody",
+        "isCorrect": true
+      },
+      {
+        "text": "Dostarczenie widoku dla każdej pozycji listy",
+        "isCorrect": true
+      },
+      {
+        "text": "Tworzenie nowych obiektów widoków dla każdego wywołania",
+        "isCorrect": false
+      },
+      {
+        "text": "Pobranie widoku pozycji listy",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Które rodzaje aplikacji nie korzystają z maszyny wirtualnej systemu?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Aplikacje natywne",
+        "isCorrect": true
+      },
+      {
+        "text": "Aplikacje hybrydowe",
+        "isCorrect": false
+      },
+      {
+        "text": "Aplikacje internetowe",
+        "isCorrect": false
+      },
+      {
+        "text": "Aplikacje mobilne",
+        "isCorrect": false
+      },
+      {
+        "text": "Aplikacje oparte na Java",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Które z rodzajów aplikacji nie są aplikacjami systemów wbudowanych?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Samodzielne",
+        "isCorrect": true
+      },
+      {
+        "text": "Real-time",
+        "isCorrect": false
+      },
+      {
+        "text": "Systemowe",
+        "isCorrect": false
+      },
+      {
+        "text": "Zadaniowe",
+        "isCorrect": false
+      },
+      {
+        "text": "Wbudowane",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Plik layoutu jest w pliku AndroidManifest.xml. Uzupełnij kod:",
+    "image": "/images/img20.png",
+    "answers": [
+      {
+        "text": "setContentView, findViewById",
+        "isCorrect": true
+      },
+      {
+        "text": "includeLayout, getLayoutElement",
+        "isCorrect": false
+      },
+      {
+        "text": "loadLayout, findView",
+        "isCorrect": false
+      },
+      {
+        "text": "attachLayout, retrieveView",
+        "isCorrect": false
+      },
+      {
+        "text": "setLayout, lookupView",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Jakie metody będą wywoływane przy pierwszym uruchomieniu aplikacji w systemie Android?",
+    "image": "",
+    "answers": [
+      {
+        "text": "onCreate",
+        "isCorrect": true
+      },
+      {
+        "text": "onInit",
+        "isCorrect": false
+      },
+      {
+        "text": "onRestart",
+        "isCorrect": false
+      },
+      {
+        "text": "onResume",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Co będzie brane pod uwagę podczas startu aktywności z użyciem filtra intencji?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Nazwa klasy wywoływanej intencji",
+        "isCorrect": true
+      },
+      {
+        "text": "Nazwa aktywności w filtrze intencji",
+        "isCorrect": true
+      },
+      {
+        "text": "Typ intencji",
+        "isCorrect": false
+      },
+      {
+        "text": "Kategoria intencji",
+        "isCorrect": false
+      },
+      {
+        "text": "Parametry intencji",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "W systemie Android tworzysz intencję iii, za pomocą której uruchamiasz inną aktywność poprzez akcję ACTION_EDIT, przekazując jej dane ddd. Druga aktywność ma zwracać dane aktywności wywołującej ją. Uzupełnij kod Java realizujący te działanie.",
+    "image": "/images/img23.png",
+    "answers": [
+      {
+        "text": "Intent, Uri, aktywnosc.startActivity",
+        "isCorrect": true
+      },
+      {
+        "text": "Intent, Bundle, aktywnosc.startIntent",
+        "isCorrect": false
+      },
+      {
+        "text": "Intent, Data, aktywnosc.launchActivity",
+        "isCorrect": false
+      },
+      {
+        "text": "Intent, aktywnosc.startEditActivity, ddd",
+        "isCorrect": false
+      },
+      {
+        "text": "Bundle, Uri, aktywnosc.startActivityForResult",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Podaj nazwy metod, które są wykonywane przy uruchamianiu aktywności w systemie Android dla fragmentu (klasy Fragment) w tej aktywności. Podaj tylko te metody, które nie występują dla aktywności (klasy Activity).",
+    "image": "",
+    "answers": [
+      {
+        "text": "1. onAttach, 2. onCreateView, 3. onActivityCreated",
+        "isCorrect": true
+      },
+      {
+        "text": "1. onAttach, 2. onCreate, 3. onActivityCreated",
+        "isCorrect": false
+      },
+      {
+        "text": "1. onAttach, 2. onStart, 3. onCreateView",
+        "isCorrect": false
+      },
+      {
+        "text": "1. onCreateView, 2. onActivityCreated, 3. onAttach",
+        "isCorrect": false
+      },
+      {
+        "text": "1. onActivityCreated, 2. onAttach, 3. onStart",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Której klasy można użyć do realizacji widoków niektórych elementów ekranu w systemie Android?",
+    "image": "",
+    "answers": [
+      {
+        "text": "MenuInflater",
+        "isCorrect": true
+      },
+      {
+        "text": "LayoutInflater",
+        "isCorrect": true
+      },
+      {
+        "text": "ContentView",
+        "isCorrect": false
+      },
+      {
+        "text": "Inflater",
+        "isCorrect": false
+      },
+      {
+        "text": "LayoutView",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "W aplikacji systemu Android masz w obiekcie Bbb typu Bundle dane do przekazania drugiej aktywności tej aplikacji, zdefiniowanej w klasie Dwa w pliku Dwa.java. Tą drugą aktywność uruchamiasz przekazując te dane. Uzupełnij kod pliku .java realizujący to działanie.",
+    "image": "/images/img26.png",
+    "answers": [
+      {
+        "text": "Dwa.class, putExtras, startActivity",
+        "isCorrect": true
+      },
+      {
+        "text": "Dwa.class, putData, start",
+        "isCorrect": false
+      },
+      {
+        "text": "Dwa.class, setExtras, launchActivity",
+        "isCorrect": false
+      },
+      {
+        "text": "Dwa.class, sendData, launch",
+        "isCorrect": false
+      },
+      {
+        "text": "Dwa.class, sendBundle, start",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Metody które, z poniższych klas, używa się bezpośrednio do przełączania fragmentów widocznych na ekranie?",
+    "image": "",
+    "answers": [
+      {
+        "text": "FragmentManager",
+        "isCorrect": false
+      },
+      {
+        "text": "Replace",
+        "isCorrect": false
+      },
+      {
+        "text": "FragmentTransaction",
+        "isCorrect": true
+      },
+      {
+        "text": "FragmentInflater",
+        "isCorrect": false
+      },
+      {
+        "text": "FragmentReplace",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Które z działań powinny być zaimplementowane w celu realizacji zalecanego schematu komunikacji fragmentów z aktywnością?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Przy dowiązaniu (attach) fragment pobiera referencję do słuchacza zdefiniowanego w aktywności",
+        "isCorrect": true
+      },
+      {
+        "text": "Fragment implementuje słuchacza (zawiera jego kod), którego wywołuje aktywność",
+        "isCorrect": false
+      },
+      {
+        "text": "Fragment powinien bezpośrednio operować na obiektach innych fragmentów aktywności",
+        "isCorrect": false
+      },
+      {
+        "text": "Aktywność pobiera referencję do słuchacza zdefiniowanego we fragmencie",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Zadaniem metody getView(...) własnego adaptera dla listy o dostosowanym widoku jest:",
+    "image": "",
+    "answers": [
+      {
+        "text": "Utworzenie nowego obiektu widoku przy pierwszym wywołaniu metody",
+        "isCorrect": true
+      },
+      {
+        "text": "Pobieranie widoku pozycji listy",
+        "isCorrect": false
+      },
+      {
+        "text": "Dostarczenie widoku dla każdej pozycji listy",
+        "isCorrect": true
+      },
+      {
+        "text": "Tworzenie nowych obiektów widoków dla każdego wywołania",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Ile razy (lub kiedy) musi być tworzony kontener na elementy widoku pozycji listy (ViewHolder) w adapterze dla aktywności/fragmentu z listą?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Podczas lub po dodaniu nowego elementu (pozycji) listy",
+        "isCorrect": true
+      },
+      {
+        "text": "Gdy zawiadamiamy (notyfikacja) adapter o zmianach",
+        "isCorrect": false
+      },
+      {
+        "text": "Za każdym razem gdy odświeżana jest lista",
+        "isCorrect": false
+      },
+      {
+        "text": "Jeden raz",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "Podaj nazwy metod, które są wykonywane przy uruchamianiu aktywności w systemie Android.",
+    "image": "",
+    "answers": [
+      {
+        "text": "OnCreate, OnStart, OnResume",
+        "isCorrect": true
+      },
+      {
+        "text": "OnInit, OnRun, OnResume",
+        "isCorrect": false
+      },
+      {
+        "text": "OnCreate, OnResume, OnStart",
+        "isCorrect": true
+      },
+      {
+        "text": "OnStart, OnResume, OnCreate",
+        "isCorrect": false
+      },
+      {
+        "text": "OnCreate, OnPause, OnDestroy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Której metody należy użyć, aby wykonać nagranie wideo z użyciem systemowej aplikacji Camera do nagrywania?",
+    "image": "",
+    "answers": [
+      {
+        "text": "resolveActivity()",
+        "isCorrect": true
+      },
+      {
+        "text": "setCameraUri",
+        "isCorrect": false
+      },
+      {
+        "text": "prepare",
+        "isCorrect": false
+      },
+      {
+        "text": "prepareCamera",
+        "isCorrect": false
+      },
+      {
+        "text": "startActivity",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Gdzie/w którym miejscu powinno się realizować zawiadomienie (notyfikację) adaptera listy przy dodawaniu elementu (pozycji), o konieczności odświeżania widoku?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Na końcu metody w adapterze dodającej element do listy",
+        "isCorrect": true
+      },
+      {
+        "text": "We fragmencie listy po dodaniu elementu do listy",
+        "isCorrect": false
+      },
+      {
+        "text": "Po powtórnym utworzeniu adaptera",
+        "isCorrect": false
+      },
+      {
+        "text": "W aktywności, przed odświeżeniem widoku listy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Dla jakich par metod do odtwarzania strumienia medialnego (audio lub wideo) klasą MediaPlayer stosowanie ich razem ma sens?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Prepare() i start()",
+        "isCorrect": true
+      },
+      {
+        "text": "Prepare() i onPrepared(...)",
+        "isCorrect": false
+      },
+      {
+        "text": "PrepareAsync() i create(...)",
+        "isCorrect": false
+      },
+      {
+        "text": "Prepare0 i create()",
+        "isCorrect": false
+      },
+      {
+        "text": "onPrepared() i start()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Dla drugiej aktywności Aaa w aplikacji Android masz zdefiniowany układ graficzny w Aaa.xml i umieszczasz w nim widok typu TextView o identyfikatorze tekst3. Uzupełnij kod pliku java, który ustawia i wyświetla, oraz wypełnia tekstem ten widok.",
+    "image": "/images/img36.png",
+    "answers": [
+      {
+        "text": "setContentView i findViewById",
+        "isCorrect": true
+      },
+      {
+        "text": "loadLayout i getTextView",
+        "isCorrect": false
+      },
+      {
+        "text": "attachLayout i retrieveView",
+        "isCorrect": false
+      },
+      {
+        "text": "inflateLayout i getViewById",
+        "isCorrect": false
+      },
+      {
+        "text": "setLayout i findView",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "W projekcie w pliku .gradle jest zdefiniowana własność viewBinding. W metodzie onCreate() aktywność tworzysz obiekty widoku UI aplikacji. Aktywność ma layout zdefiniowany w pliku activity_main.xml. Tworzysz zmienną: var binding = ActivityMainBinding.inflate(...) Uzupełnij ostatnią linię kodu funkcji onCreate poniżej:",
+    "image": "",
+    "answers": [
+      {
+        "text": "return",
+        "isCorrect": true
+      },
+      {
+        "text": "return binding",
+        "isCorrect": false
+      },
+      {
+        "text": "return binding.root",
+        "isCorrect": false
+      },
+      {
+        "text": "return binding.inflate()",
+        "isCorrect": false
+      },
+      {
+        "text": "return binding.activity_main",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "W projekcie w pliku .gradle jest zdefiniowana własność viewBinding. W metodzie onCreate() aktywność tworzysz obiekty widoku UI aplikacji. Aktywność ma layout zdefiniowany w pliku activity_main.xml. Tworzysz zmienną: var binding = ActivityMainBinding.inflate(...) Uzupełnij ostatnią linię kodu funkcji onCreateView poniżej:",
+    "image": "",
+    "answers": [
+      {
+        "text": "return",
+        "isCorrect": false
+      },
+      {
+        "text": "return binding",
+        "isCorrect": false
+      },
+      {
+        "text": "return binding.root",
+        "isCorrect": true
+      },
+      {
+        "text": "return binding.inflate()",
+        "isCorrect": false
+      },
+      {
+        "text": "return binding.activity_main",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Dla wykonania danego działania (Use Case) - np. zrobienie zdjęcia - z użyciem klas/metod pakietu CameraC trzeba zakodować następujące operacje (wybierz właściwe):",
+    "image": "",
+    "answers": [
+      {
+        "text": "Zdefiniować słuchacza odbierającego rezultaty wywołanej aktywności systemowej Camera",
+        "isCorrect": true
+      },
+      {
+        "text": "Zdefiniować słuchacza wywoływanego gdy aktywność/fragment jest w stanie Running (czyli działa na pierwszym planie)",
+        "isCorrect": false
+      },
+      {
+        "text": "Uruchomić aktywność Camera z użyciem odpowiedniego kontraktu",
+        "isCorrect": false
+      },
+      {
+        "text": "Powiązać działanie (use case) z fragmentem/aktywnością",
+        "isCorrect": false
+      },
+      {
+        "text": "Ustawić tryb pracy kamery",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Ile metod powinien zawierać konwerter danych dla frameworka Room (klasa z dekoratorem @TypeConventers), używany dla własnych typów danych w bazie?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Co najmniej jedną",
+        "isCorrect": false
+      },
+      {
+        "text": "Dokładnie jedną",
+        "isCorrect": false
+      },
+      {
+        "text": "Co najmniej cztery",
+        "isCorrect": false
+      },
+      {
+        "text": "Co najmniej dwie",
+        "isCorrect": true
+      },
+      {
+        "text": "Co najmniej trzy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Działanie metody związanej z dostępem do plików getFilesDir?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Dostarcza ścieżkę bezwzględną katalogu prywatnego aplikacji w pamięci zewnętrznej",
+        "isCorrect": false
+      },
+      {
+        "text": "Dostarcza ścieżkę bezwzględną katalogu w pamięci współdzielonej (shared storage)",
+        "isCorrect": false
+      },
+      {
+        "text": "Dostarcza ścieżkę do bieżącego katalogu aplikacji",
+        "isCorrect": true
+      },
+      {
+        "text": "Dostarcza ścieżkę bezwzględną katalogu prywatnego aplikacji w pamięci wewnętrznej",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "W metodzie nawigacji kontrolera nawigacji navigate(..) podaje się jako parametr identyfikator specyfikujący element docelowy. Gdzie definiuje się ten identyfikator?",
+    "image": "",
+    "answers": [
+      {
+        "text": "W menu elementu nawigacji (NawigationDrawer lub BottomNavigator)",
+        "isCorrect": false
+      },
+      {
+        "text": "W elemencie węzła navigation w grafie nawigacji",
+        "isCorrect": true
+      },
+      {
+        "text": "W układzie widoków (layout) elementu docelowego",
+        "isCorrect": false
+      },
+      {
+        "text": "W węźle NavigationView grafu nawigacji",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Implementujesz aktywność z paskiem aplikacji z menu za pomocą Toolbar w układzie widoków (layout) aktywności. Które motywy (Theme) możesz użyć dla tej aktywności?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Theme.MaterialComponents.DayNight.NoActionBar",
+        "isCorrect": true
+      },
+      {
+        "text": "Theme.AppCompat.Light.DarkActionBar",
+        "isCorrect": false
+      },
+      {
+        "text": "Theme.AppCompat.Light.NoActionBar",
+        "isCorrect": true
+      },
+      {
+        "text": "Theme.MaterialComponents.DayNight.DarkActionBar",
+        "isCorrect": false
+      },
+      {
+        "text": "Theme.AppCompat.DayNight.DarkActionBar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Implementujesz wymianę komunikatów pomiędzy dwoma fragmentami. Które komponentu programowe (klasy, metody, interfejsy, itp.) musisz użyć w tym celu?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Obiekt typu Result",
+        "isCorrect": false
+      },
+      {
+        "text": "Metodę setFragmentResultListener",
+        "isCorrect": true
+      },
+      {
+        "text": "Obiekt typu ParentFragmentManager",
+        "isCorrect": false
+      },
+      {
+        "text": "Metodę startFragmentOnResult",
+        "isCorrect": false
+      },
+      {
+        "text": "Metodę registerForFragmentResult",
+        "isCorrect": false
+      },
+      {
+        "text": "Obiekt typu FragmentTransaction",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "Jest obiekt sp typu SharedPreferences. Należy zapisać zmienną całkowitą xxx do pamięci współdzielonej. Które z poniższych poleceń jest prawidłowe jako jedno z tych, które muszą być użyte do realizacji tego działania?",
+    "image": "",
+    "answers": [
+      {
+        "text": "sp.putInt(var xxx)",
+        "isCorrect": false
+      },
+      {
+        "text": "sp.putInt(\"jakas_nazwa\", xxx)",
+        "isCorrect": true
+      },
+      {
+        "text": "sp.write(xxx)",
+        "isCorrect": false
+      },
+      {
+        "text": "sp.put(\"jakas_nazwa\", xxx)",
+        "isCorrect": false
+      },
+      {
+        "text": "var e = sp.edit()",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Implementujesz aplikację z fragmentami zawierającymi widok z adapterem (np. listę z RecyclerView). Na wybraną akcję uruchamia się nowy fragment pozwalający zmodyfikować dane (np. dodać nowe dane do listy), które używa adapter. Po modyfikacji (zatwierdzeniu) jest powrót do fragmentu pierwszego, który powinien wyświetlać uaktualniony widok z nowymi danymi.\nWskaż najbardziej właściwy sposób (potrzebne elementy do zaimplementowania) z podanych poniżej, dla realizacji tego działania. Uwaga: można też zrobić to w nieco inny sposób - tutaj nierozważany)",
+    "image": "",
+    "answers": [
+      {
+        "text": "Zawiadomienie adaptera o zmianach (wywołanie metody notyfikacji) we fragmencie z adapterem",
+        "isCorrect": true
+      },
+      {
+        "text": "Przekazanie nowych danych dla pierwszego fragmentu (z widokiem z adaptera) poprzez parametr (Bundle) jego metody getInstance()",
+        "isCorrect": false
+      },
+      {
+        "text": "Utworzenie adaptera z nowymi danymi (np. nową listą ze zmodyfikowanymi danymi)",
+        "isCorrect": false
+      },
+      {
+        "text": "Zawiadomienie adaptera o zmianach (wywołanie metody notyfikacji) we fragmencie modyfikującymi dane",
+        "isCorrect": false
+      },
+      {
+        "text": "Zarejestrowanie słuchaczy na komunikaty z fragmentu modyfikującego dane",
+        "isCorrect": true
+      },
+      {
+        "text": "Zapis i odczyt nowych danych (przekazanie danych) w pamięci SharedPreferences",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "Jakie jest przeznaczenie metody onPrepareActionMode?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Jest używana do robienia zdjęć z kamery systemowej",
+        "isCorrect": false
+      },
+      {
+        "text": "Służy do implementacji menu kontekstowego dla widoku",
+        "isCorrect": true
+      },
+      {
+        "text": "Jest używana do uruchomienia innej aktywności",
+        "isCorrect": false
+      },
+      {
+        "text": "Służy do przygotowania odtwarzania multimediów wideo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "W której metodzie możemy ustawić częstotliwość próbkowania dla sensora w systemie Android?",
+    "image": "",
+    "answers": [
+      {
+        "text": "registerListener",
+        "isCorrect": true
+      },
+      {
+        "text": "setSamplingRate",
+        "isCorrect": false
+      },
+      {
+        "text": "configureSensorSampling",
+        "isCorrect": false
+      },
+      {
+        "text": "startSampling",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Implementujesz fragment z przesuwanymi widokami (np. obrazkami) z użyciem ViewPager2. Definiujesz dla niego odpowiedni adapter MyFragAdapter.",
+    "image": "/images/img50.png",
+    "answers": [
+      {
+        "text": "createFragment, newInstance",
+        "isCorrect": true
+      },
+      {
+        "text": "createView, createFragment",
+        "isCorrect": false
+      },
+      {
+        "text": "onCreateView, newInstance",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Które działanie(nia) powinno(ny) być wykonane w celu aktualizacji widoku listy prezentującej dane z bazy danych po dodaniu rekordu do bazy danych? Zakładamy, że nie stosujemy LiveData i ViewModel.",
+    "image": "",
+    "answers": [
+      {
+        "text": "Utworzenie nowego adaptera z listą nowo wczytanych danych",
+        "isCorrect": false
+      },
+      {
+        "text": "Dostarczenie nowo wczytanych danych do adaptera",
+        "isCorrect": true
+      },
+      {
+        "text": "Tylko zawiadomienie adaptera o zmianach danych",
+        "isCorrect": false
+      },
+      {
+        "text": "Zawiadomienie adaptera o zmianach",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "W aktywności umieszczony jest fragment, a wewnątrz fragmentu kolejny fragment. Co może być użyte do wymiany danych między fragmentami z użyciem słuchacza odbioru rezultatów?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Jeden używa childFragmentManager, a jeden parentFragmentManager",
+        "isCorrect": true
+      },
+      {
+        "text": "Oba używają parentFragmentManager",
+        "isCorrect": false
+      },
+      {
+        "text": "Jedne używa supportFragmentManager, a jedne childFragmentManager",
+        "isCorrect": false
+      },
+      {
+        "text": "Oba używają supportFragmentManager",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Które działanie koniecznie trzeba wykonać, aby zaimplementować nawigację między fragmentami dla paska nawigacji BottomNavigationView z użyciem frameworka Navigation?",
+    "image": "",
+    "answers": [
+      {
+        "text": "Użycie layout’u DrawerLayout",
+        "isCorrect": false
+      },
+      {
+        "text": "Uzyskanie kontrolera nawigacji (NavController)",
+        "isCorrect": true
+      },
+      {
+        "text": "Zdefiniowanie akcji (action) w grafie nawigacji",
+        "isCorrect": true
+      },
+      {
+        "text": "Zdefiniowanie fragmentów w grafie nawigacji",
+        "isCorrect": true
+      },
+      {
+        "text": "Zdefiniowanie widoku nawigacji NavigationView",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Jaka metoda jest wywoływana, gdy pojawiają się nowe dane o lokalizacji? (Chodzi o Android Location API)",
+    "image": "",
+    "answers": [
+      {
+        "text": "onLocationChanged",
+        "isCorrect": true
+      },
+      {
+        "text": "onLocationReceived",
+        "isCorrect": false
+      },
+      {
+        "text": "updateLocation",
+        "isCorrect": false
+      },
+      {
+        "text": "handleNewLocationData",
+        "isCorrect": false
+      }
+    ]
+  }
+]
